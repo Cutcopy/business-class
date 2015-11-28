@@ -59,27 +59,44 @@ html(lang="en")
                 label Sign Up For Our Free Newsletter
                 input(type="text" Placeholder="Email")
               .medium-3.columns  
-                input(type="submit" value="Submit")    
+                input(type="submit" value="Submit") 
     main.row
       .small-12.medium-8.large-8.columns
-        article.row
-          .small-12.medium-12.large-12.blog-post
-            h1 If you will it, there is no dream.
-            date 11/26/2015
-            .flex-video.widescreen
-              | <iframe width="854" height="480" src="https://www.youtube.com/embed/UWEjxkkB8Xs" frameborder="0" allowfullscreen></iframe>
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quis pariatur debitis optio expedita id nemo dolores odio harum autem ut, enim eius mollitia itaque rem hic atque aperiam unde!
-            p Earum, sint. In quo cum ullam maiores doloribus autem quos! Recusandae natus pariatur quas amet numquam eveniet qui obcaecati blanditiis ab voluptate veritatis, voluptatibus, culpa provident maxime praesentium, ex itaque.
-            p Inventore illum explicabo, praesentium fugiat consequuntur dolor, dolorum sapiente magni iste quas perferendis aliquid tenetur officia quaerat autem nam officiis ea soluta, quos asperiores consequatur voluptas quod voluptatibus sed. Distinctio.
-            article.row
-              .small-12.medium-12.large-12
-                h1 If you will it, there is no dream.
-                date 11/26/2015
-                .flex-video.widescreen
-                  | <iframe width="854" height="480" src="https://www.youtube.com/embed/UWEjxkkB8Xs" frameborder="0" allowfullscreen></iframe>
-                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quis pariatur debitis optio expedita id nemo dolores odio harum autem ut, enim eius mollitia itaque rem hic atque aperiam unde!
-                p Earum, sint. In quo cum ullam maiores doloribus autem quos! Recusandae natus pariatur quas amet numquam eveniet qui obcaecati blanditiis ab voluptate veritatis, voluptatibus, culpa provident maxime praesentium, ex itaque.
-                p Inventore illum explicabo, praesentium fugiat consequuntur dolor, dolorum sapiente magni iste quas perferendis aliquid tenetur officia quaerat autem nam officiis ea soluta, quos asperiores consequatur voluptas quod voluptatibus sed. Distinctio.    
+        .row
+          .large-12.columns
+            ul.accordian(data-accordion data-allow-all-closed="true")
+              li.accordian-item
+                a.accordian-title(href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d") 
+                  h1 What What
+                .accordion-content(id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading")
+                  article
+                    .flex-video.widescreen
+                        iframe(width="854" height="480" src="https://www.youtube.com/embed/bJShpMC7xFM" frameborder="0" allowfullscreen)
+                      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet libero, nesciunt cupiditate excepturi nulla! Adipisci vero repellat error, atque iusto, mollitia dignissimos aperiam quia ratione illum animi obcaecati necessitatibus magni.
+                      p Nisi nulla quos accusamus voluptate saepe incidunt corporis beatae eaque, soluta iure. Minima eum ipsa quisquam unde. Quasi enim saepe maiores ullam dignissimos officiis error iste pariatur, fugiat, hic, similique!
+                      p Ipsa unde dicta praesentium veritatis cum ducimus quidem repellat dolor, atque neque. Nemo corporis, ipsam aliquam consectetur ut quo dolore quibusdam, et maxime officiis, nobis numquam. Explicabo neque dolorem, cum.
+              
+              li.accordian-item
+                a.accordian-title(href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d") 
+                  h1 What What
+                .accordion-content(id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading")
+                  article
+                    .flex-video.widescreen
+                        iframe(width="854" height="480" src="https://www.youtube.com/embed/bJShpMC7xFM" frameborder="0" allowfullscreen)
+                      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet libero, nesciunt cupiditate excepturi nulla! Adipisci vero repellat error, atque iusto, mollitia dignissimos aperiam quia ratione illum animi obcaecati necessitatibus magni.
+                      p Nisi nulla quos accusamus voluptate saepe incidunt corporis beatae eaque, soluta iure. Minima eum ipsa quisquam unde. Quasi enim saepe maiores ullam dignissimos officiis error iste pariatur, fugiat, hic, similique!
+                      p Ipsa unde dicta praesentium veritatis cum ducimus quidem repellat dolor, atque neque. Nemo corporis, ipsam aliquam consectetur ut quo dolore quibusdam, et maxime officiis, nobis numquam. Explicabo neque dolorem, cum.          
+        .row
+          .small-12.columns.small-centered
+            ul(class="pagination" role="navigation" aria-label="Pagination")
+              li.pagination-previous.disabled 1
+              li.current 2
+                li
+                  a(href="#") 3
+                li
+                  a(href="#") 4
+                li
+                  a(href="#") 5
       aside.small-12.medium-4.large-4.columns
         .row
           .small-12.columns
