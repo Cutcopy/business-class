@@ -1,0 +1,22 @@
+{
+  "name": "business-class",
+  "authors": [
+    "Bryce Stradling <bryce@getvyral.com>"
+  ],
+  "description": "silly business theme",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation-sites": "~6.0.4"
+  }
+}

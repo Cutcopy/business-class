@@ -1,0 +1,11 @@
+{
+  "name": "business-class",
+  "version": "1.0.0",
+  "description": "a silly business theme",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Bryce Stradling",
+  "license": "MIT"
+}
