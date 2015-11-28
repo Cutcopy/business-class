@@ -45,8 +45,21 @@ html(lang="en")
                   i.fa.fa-rss          
     header.large
       img.blogheader(src="https://placehold.it/3000x600/0066ff/ffffff?text=Blog+Header", alt="header")
-      a(href="#").button Free Home Value Report
-      a(href="#").button Search For Homes
+      .row
+        .small-8.medium-4.large-4.columns
+          ul.menu
+            li
+              a.button(href="#") Call To Action
+            li  
+              a.button(href="#") Why Not Now?
+        .small-4.medium-8.large-8.columns
+          form
+            .row
+              .medium-9.columns
+                label Sign Up For Our Free Newsletter
+                input(type="text" Placeholder="Email")
+              .medium-3.columns  
+                input(type="submit" value="Submit")    
     main.row
       .small-12.medium-8.large-8.columns
         article.row
@@ -68,7 +81,30 @@ html(lang="en")
                 p Earum, sint. In quo cum ullam maiores doloribus autem quos! Recusandae natus pariatur quas amet numquam eveniet qui obcaecati blanditiis ab voluptate veritatis, voluptatibus, culpa provident maxime praesentium, ex itaque.
                 p Inventore illum explicabo, praesentium fugiat consequuntur dolor, dolorum sapiente magni iste quas perferendis aliquid tenetur officia quaerat autem nam officiis ea soluta, quos asperiores consequatur voluptas quod voluptatibus sed. Distinctio.    
       aside.small-12.medium-4.large-4.columns
-        p No need for a column
+        .row
+          .small-12.columns
+            h3 About
+            img.headshot(src="http://fillmurray.com/300/300", alt="")
+            p No need for a column
+        .row
+          .small-12.small-centered.columns
+            ul.menu.text-center
+              li
+                a.button(href="#") Yelp
+              li  
+                a.button(href="#") Zillow
+              li  
+                a.button(href="#") Trulia
+        .row
+          .small-12.columns
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ducimus delectus repellendus natus voluptate quaerat fugit corrupti ipsa reprehenderit voluptatem magni inventore numquam, cupiditate pariatur labore, sapiente odio hic. Veniam!
+            p Sequi doloremque quaerat necessitatibus a aut eaque id dolores iste, vel cumque error quos quibusdam mollitia at minus ipsum sed quae inventore ipsam expedita atque excepturi alias. Optio, nesciunt, cumque.
+        .row
+          .small-12.columns
+            form(action="")
+              input(type="text")
+              textarea(name="Joke", cols="30", rows="10")
+              input(type="submit")            
     footer
     //whole 'lot a bullshit
     script(src="bower_components/jquery/dist/jquery.js?hash=03b702824382256abfb4780ad2b7ef3c")
